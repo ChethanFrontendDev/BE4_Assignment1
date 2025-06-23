@@ -4,6 +4,7 @@ const app = express();
 const { initializeDatabse } = require("./db/db.connect");
 const Book = require("./models/books.models");
 
+app.use(cors());
 app.use(express.json());
 initializeDatabse();
 
