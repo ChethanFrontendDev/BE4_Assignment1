@@ -7,6 +7,7 @@ const Book = require("./models/books.models");
 
 app.use(cors());
 app.use(express.json());
+
 initializeDatabse();
 
 // // data 1 to pass as req body from postman
